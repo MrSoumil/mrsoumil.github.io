@@ -365,7 +365,7 @@ header .navbar ul li a:hover{
 
 .top{
     position: fixed;
-    bottom:3.0rem; right: 2rem;
+    bottom:2.0rem; right: 2rem;
     z-index: 100;
     display: none;
 }
