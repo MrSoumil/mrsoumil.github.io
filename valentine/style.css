@@ -289,7 +289,7 @@ body {
   100% {transform: translateY(-450px);}
 }
 
-.text1, .text2, .text3 {
+.text1, .text2, .text3, .text4, .text5 {
   position: absolute;
   color: #800f2f;
   font-size:30px;
@@ -319,16 +319,30 @@ body {
 .text3:hover span {
   display: none;
 }
+.text4:hover span {
+  display: none;
+}
+.text5:hover span {
+  display: none;
+}
 
 .text1:hover:before{
   content:"Remember not to eat too much candy—you're sweet enough already.";
   font-size:25px;
 }
 .text2:hover:before{
-  content:"Do you?...";
+  content:"Words can't describe how lucky I am to get such a loving and caring girl.";
   font-size:25px;
 }
 .text3:hover:before{
-  content:"My answer is always a big yes!";
+  content:"Don't you just dare to give a smile...answer me!";
+  font-size:25px;
+}
+.text4:hover:before{
+  content:"--";
+  font-size:25px;
+}
+.text5:hover:before{
+  content:"--";
   font-size:25px;
 }
