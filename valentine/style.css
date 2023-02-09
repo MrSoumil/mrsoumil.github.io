@@ -10,19 +10,22 @@ body {
   width: fit-content;
 }
 
-.column {
-  width: 100%;
+@media screen and (max-width: 770px)
+{
+	.happy-valentines
+	{
+    margin-left: 20px;
+    margin-right: 20px;
+	}
 }
 
-@media (min-width: 600px) {
-  .column {
-    width: 50%;
-  }
+.happy-valentines{
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .valentines-day-card {
   position: relative;
-  margin-top: 50px;
   width: 400px;
   height: 300px;
   background-color: #ff8fa3;
