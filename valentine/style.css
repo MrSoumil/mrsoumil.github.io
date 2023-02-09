@@ -10,6 +10,16 @@ body {
   width: fit-content;
 }
 
+.column {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .column {
+    width: 50%;
+  }
+}
+
 .valentines-day-card {
   position: relative;
   margin-top: 50px;
